@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cart</title>
+  <link rel="stylesheet" href="cart.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="nikoo.jpg" alt="Nike Logo" />
+        </div>
+    </header>
+
+  <main>
+    <div class="cart-container">
+      <div class="cart-items">
+        <h2>Your Cart</h2>
+        <div class="cart-item">
+          <img src="s5.png" alt="Nike Air Zoom" class="cart-item-image">
+          <div class="cart-item-details">
+            <h3>Nike Air Zoom</h3>
+            <p>Size: 10</p>
+            <p>Color: Black</p>
+            <p>Price: $150</p>
+            <input type="number" value="1" min="1" class="quantity">
+            <button class="remove">Remove</button>
+          </div>
+        </div>
+        <div class="cart-item">
+          <img src="s5.png" alt="Nike Running Shoes" class="cart-item-image">
+          <div class="cart-item-details">
+            <h3>Nike Running Shoes</h3>
+            <p>Size: 11</p>
+            <p>Color: Blue</p>
+            <p>Price: $130</p>
+            <input type="number" value="1" min="1" class="quantity">
+            <button class="remove">Remove</button>
+          </div>
+        </div>
+      </div>
+      
+      <div class="cart-summary">
+        <h3>Summary</h3>
+        <p>Subtotal: $280</p>
+        <button class="checkout">Proceed to Checkout</button>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Nike, Inc. All rights reserved.</p>
+  </footer>
+</body>
+</html>

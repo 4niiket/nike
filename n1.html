@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nike Shoes Collection</title>
+    <style>
+        body {
+            font-family: "Poppins";
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+    header {
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+    }
+
+    header .logo img {
+        width: 60px;
+    }
+   
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .product {
+            background-color: #fff;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            padding: 20px;
+            margin: 10px;
+            width: calc(33.33% - 20px);
+            text-align: center;
+        }
+
+        .product-image img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-bottom: 15px;
+        }
+
+        .product-details h2 {
+            font-size: 24px;
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        .product-details p {
+            font-size: 14px;
+            color: #555;
+            margin-bottom: 10px;
+            line-height: 1.6;
+        }
+
+        .price {
+            font-size: 20px;
+            color: black;
+            margin-top: 10px;
+        }
+
+        .buy-button {
+            display: inline-block;
+            background-color: black;
+            color: #fff;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 15px;
+            font-weight: bold;
+        }
+
+        .buy-button:hover {
+            background-color:#555 ;
+        }
+
+        @media (max-width: 768px) {
+            .product {
+                width: calc(50% - 20px);
+            }
+        }
+
+        @media (max-width: 480px) {
+            .product {
+                width: 100%;
+            }
+
+            .product-details h2 {
+                font-size: 20px;
+            }
+
+            .product-details p {
+                font-size: 13px;
+            }
+
+            .price {
+                font-size: 18px;
+            }
+
+            .buy-button {
+                padding: 8px 15px;
+            }
+        }
+    </style>
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="nikoo.jpg" alt="Nike Logo" />
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="product">
+            <div class="product-image">
+                <img src="s1.png" alt="Nike Air Zoom">
+            </div>
+            <div class="product-details">
+                <h2>Nike Air Zoom</h2>
+                <p>The Nike Air Zoom is a lightweight, high-performance shoe designed for athletes who demand comfort, speed, and agility.</p>
+                <div class="price">$120.00</div>
+                <a href="#" class="buy-button">Buy Now</a>
+            </div>
+        </div>
+
+        <div class="product">
+            <div class="product-image">
+                <img src="s4.png" alt="Nike React Infinity Run">
+            </div>
+            <div class="product-details">
+                <h2>Nike React Infinity Run</h2>
+                <p>The Nike React Infinity Run provides excellent cushioning and support, perfect for long-distance runners.</p>
+                <div class="price">$150.00</div>
+                <a href="#" class="buy-button">Buy Now</a>
+            </div>
+        </div>
+
+        <div class="product">
+            <div class="product-image">
+                <img src="sh3.png" alt="Nike Air Max 270">
+            </div>
+            <div class="product-details">
+                <h2>Nike Air Max 270</h2>
+                <p>The Nike Air Max 270 features a large Air unit for maximum cushioning and all-day comfort.</p>
+                <div class="price">$130.00</div>
+                <a href="#" class="buy-button">Buy Now</a>
+            </div>
+        </div>
+
+        <div class="product">
+            <div class="product-image">
+                <img src="s6.png" alt="Nike Zoom Fly 3">
+            </div>
+            <div class="product-details">
+                <h2>Nike Zoom Fly 3</h2>
+                <p>The Nike Zoom Fly 3 is built for speed with a carbon fiber plate and responsive cushioning for fast-paced runners.</p>
+                <div class="price">$160.00</div>
+                <a href="#" class="buy-button">Buy Now</a>
+            </div>
+        </div>
+
+        <div class="product">
+            <div class="product-image">
+                <img src="s5.png" alt="Nike Air Force 1">
+            </div>
+            <div class="product-details">
+                <h2>Nike Air Force 1</h2>
+                <p>A classic silhouette that combines timeless style with all-day comfort, the Nike Air Force 1 is a streetwear icon.</p>
+                <div class="price">$100.00</div>
+                <a href="#" class="buy-button">Buy Now</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
